@@ -43,6 +43,7 @@ type Context struct {
 	Snapshot     bool
 	RmDist       bool
 	Parallelism  int
+	Debug        bool
 }
 
 var artifactsLock sync.Mutex
